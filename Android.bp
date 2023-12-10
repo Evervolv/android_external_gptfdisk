@@ -89,6 +89,7 @@ cc_library {
 
     shared_libs: ["libext2_uuid"],
     static_libs: ["libgptf"],
+    visibility: ["//bootable/recovery/volume_manager"],
 }
 
 cc_library_static {
